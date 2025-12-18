@@ -24,6 +24,8 @@
                 <div class="navbar-nav w-100">
                     <a href="index.php" class="nav-item nav-link <?=$m[1];?>"><i class="fa fa-home me-2"></i>Dashboard</a>
                     <a href="index.php?menu=users" class="nav-item nav-link <?=$m[2];?>"><i class="fa fa-users-cog me-2"></i>Users</a>
+                    <a href="index.php?menu=admin" class="nav-item nav-link <?=$m[3];?>"><i class="fa fa-users-cog me-2"></i>Admin</a>
+                    <a href="index.php?menu=riwayat" class="nav-item nav-link <?=$m[3];?>"><i class="fa fa-users-cog me-2"></i>riwayat</a>
                     <a href="#" class="nav-item nav-link" id="signout"><i class="fa fa-sign-out-alt me-2"></i>Sign Out</a>
                     
                     
