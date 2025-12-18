@@ -31,7 +31,7 @@
                                     <td>Chitato</td>
                                     <td>100</td>
                                     <td>5</td>
-                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-success" href="" data-bs-toggle="modal" data-bs-target="#exampleModal" ><i class="fa fa-edit"></i></a></td>
                                     <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                                 <tr>
@@ -41,7 +41,7 @@
                                     <td>Pringles</td>
                                     <td>90</td>
                                     <td>5</td>
-                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-success" href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-edit"></i></a></td>
                                     <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                                 <tr>
@@ -51,7 +51,7 @@
                                     <td>Indomie</td>
                                     <td>50</td>
                                     <td>5</td>
-                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-success" href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-edit"></i></a></td>
                                     <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                                 <tr>
@@ -61,7 +61,7 @@
                                     <td>Lays</td>
                                     <td>80</td>
                                     <td>5</td>
-                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-success" href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-edit"></i></a></td>
                                     <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                                 <tr>
@@ -71,7 +71,7 @@
                                     <td>Oreo</td>
                                     <td>35</td>
                                     <td>5</td>
-                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-success" href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-edit"></i></a></td>
                                     <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                             </tbody>
@@ -81,4 +81,42 @@
             </div>
             <!-- Users End -->
 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Date:</label>
+            <input type="date" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Id:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Item:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Stock:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Min.Stock:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
         
