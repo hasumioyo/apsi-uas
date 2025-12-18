@@ -7,7 +7,7 @@
                         <a href="">Show All</a>
                     </div>
                     <div class="d-flex mb-4">
-                        <a class="btn btn-sm btn-primary" href=""><i class="fa fa-user-plus"></i> Add User</a>
+                        <a class="btn btn-sm btn-primary" href=""><i class="fas fa-box"></i> Add Item</a>
                     </div>
                     <div class="table-responsive">
                         <table class="table text-start align-middle table-bordered table-hover mb-0">
@@ -42,7 +42,10 @@
                                     <td>Pringles</td>
                                     <td>90</td>
                                     <td>5</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                    <td>
+                                        <a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a>
+                                        <a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -51,7 +54,10 @@
                                     <td>Indomie</td>
                                     <td>50</td>
                                     <td>5</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                    <td>
+                                        <a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a>
+                                        <a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -60,7 +66,10 @@
                                     <td>Lays</td>
                                     <td>80</td>
                                     <td>5</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                    <td>
+                                        <a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a>
+                                        <a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -69,7 +78,10 @@
                                     <td>Oreo</td>
                                     <td>35</td>
                                     <td>5</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                    <td>
+                                        <a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a>
+                                        <a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
