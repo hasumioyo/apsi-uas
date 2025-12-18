@@ -19,7 +19,8 @@
                                     <th scope="col">Item</th>
                                     <th scope="col">Stock</th>
                                     <th scope="col">Min.Stock</th>
-                                    <th scope="col">Action</th>
+                                    <th scope="col">Edit</th>
+                                    <th scope="col">Delete</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -30,10 +31,8 @@
                                     <td>Chitato</td>
                                     <td>100</td>
                                     <td>5</td>
-                                    <td>
-                                        <a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a>
-                                        <a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a>
-                                    </td>
+                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -42,10 +41,8 @@
                                     <td>Pringles</td>
                                     <td>90</td>
                                     <td>5</td>
-                                    <td>
-                                        <a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a>
-                                        <a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a>
-                                    </td>
+                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -54,10 +51,8 @@
                                     <td>Indomie</td>
                                     <td>50</td>
                                     <td>5</td>
-                                    <td>
-                                        <a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a>
-                                        <a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a>
-                                    </td>
+                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -66,10 +61,8 @@
                                     <td>Lays</td>
                                     <td>80</td>
                                     <td>5</td>
-                                    <td>
-                                        <a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a>
-                                        <a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a>
-                                    </td>
+                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -78,10 +71,8 @@
                                     <td>Oreo</td>
                                     <td>35</td>
                                     <td>5</td>
-                                    <td>
-                                        <a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a>
-                                        <a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a>
-                                    </td>
+                                    <td><a class="btn btn-sm btn-success" href=""><i class="fa fa-edit"></i></a></td>
+                                    <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
                                 </tr>
                             </tbody>
                         </table>
