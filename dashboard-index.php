@@ -3,7 +3,7 @@
      <div class="row g-4">
          <div class="col-sm-6 col-xl-3">
              <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                 <i class="fas fa-boxes text-primary"></i>
+                 <i class="fas fa-boxes text-primary fa-3x"></i>
                  <div class="ms-3">
                      <p class="mb-2">Available Stock</p>
                      <h6 class="mb-0">200</h6>
@@ -12,7 +12,7 @@
          </div>
          <div class="col-sm-6 col-xl-3">
              <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                 <i class="fas fa-boxes text-primary"></i>
+                 <i class="fas fa-boxes text-primary fa-3x"></i>
                  <div class="ms-3">
                      <p class="mb-2">Low Stock</p>
                      <h6 class="mb-0">5</h6>
@@ -21,7 +21,7 @@
          </div>
          <div class="col-sm-6 col-xl-3">
              <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                 <i class="fas fa-boxes text-primary"></i>
+                 <i class="fas fa-boxes text-primary fa-3x"></i>
                  <div class="ms-3">
                      <p class="mb-2">Out of Stock</p>
                      <h6 class="mb-0">2</h6>

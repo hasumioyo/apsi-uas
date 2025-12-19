@@ -6,9 +6,16 @@
        <a href="">Show All</a>
      </div>
      <div class="d-flex mb-4">
-       <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#addModal" data-bs-whatever="@mdo"><i class="fas fa-box"></i> Add Item</a>
+       <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#addModal" data-bs-whatever="@mdo"><i class="fa fa-user-plus"></i> Add Data</a>
      </div>
-     <div class="table-responsive">
+     <!-- Search bar -->
+     <div class="search-container">
+       <i class="search-icon">🔍</i>
+       <input type="text" id="searchInput" placeholder="Search users..." onkeyup="searchTable()">
+     </div>
+     <!-- Search bar end -->
+
+     <div class="table-responsive" id="userTable">
        <table class="table text-start align-middle table-bordered table-hover mb-0">
          <thead>
            <tr class="text-dark">
@@ -17,6 +24,7 @@
              <th scope="col">Name</th>
              <th scope="col">Email</th>
              <th scope="col">No. HP</th>
+             <th scope="col">Role</th>
              <th scope="col">Edit</th>
              <th scope="col">Delete</th>
            </tr>
@@ -28,8 +36,25 @@
              <td>Meriyanti</td>
              <td>Meriyanti@gmail.com</td>
              <td>087564857662</td>
-             <td><a class="btn btn-sm btn-success" href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-edit"></i></a></td>
-             <td><a class="btn btn-sm btn-danger" href=""><i class="fa fa-trash-alt"></i></a></td>
+             <td>Admin</td>
+             <td><a class="btn btn-sm btn-warning" href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-edit"></i></a></td>
+             <td>
+                <button class="btn btn-sm btn-danger" id="liveToastBtn" type="button"><i class="fa fa-trash-alt"></i></button>
+            </td>
+           </tr>
+           <tr>
+             <td><input class="form-check-input" type="checkbox"></td>
+             <td>02</td>
+             <td>Angelina</td>
+             <td>Angelina@gmail.com</td>
+             <td>123456789000</td>
+             <td>User</td>
+             <td>
+               <a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-edit"></i></a>
+             </td>
+             <td>
+                <button class="btn btn-sm btn-danger" id="liveToastBtn" type="button"><i class="fa fa-trash-alt"></i></button>
+             </td>
            </tr>
          </tbody>
        </table>
@@ -109,3 +134,43 @@
      </div>
    </div>
  </div>
+
+ <!-- notif hapus -->
+ <div class="toast-container position-fixed bottom-0 end-0 p-3">
+   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+     <div class="toast-header">
+       <strong class="me-auto">Notifikasi!!</strong>
+       <small>10 secs ago</small>
+       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+     </div>
+     <div class="toast-body">
+       Data ini sudah di hapus.
+     </div>
+   </div>
+ </div>
+
+ <!-- JS -->
+ <script>
+   const toastTrigger = document.getElementById('liveToastBtn')
+   const toastLiveExample = document.getElementById('liveToast')
+   if (toastTrigger) {
+     toastTrigger.addEventListener('click', () => {
+       const toast = new bootstrap.Toast(toastLiveExample)
+
+       toast.show()
+     })
+   }
+ </script>
+
+ <!-- JavaScript -->
+ <script>
+   function searchTable() {
+     let input = document.getElementById("searchInput").value.toLowerCase();
+     let rows = document.querySelectorAll("#userTable tbody tr");
+
+     rows.forEach(row => {
+       let text = row.innerText.toLowerCase();
+       row.style.display = text.includes(input) ? "" : "none";
+     });
+   }
+ </script>

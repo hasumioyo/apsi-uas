@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
 </head>
 
 <body>
@@ -58,7 +59,6 @@
             $menu = isset($_GET['menu'])?$_GET['menu']:"";
             if($menu == "") {include "dashboard-index.php"; }
             if($menu == "users") {include "users-index.php"; }
-            if($menu == "admin") {include "admin.php"; }
             if($menu == "riwayat") {include "riwayat.php"; }
             ?>
            

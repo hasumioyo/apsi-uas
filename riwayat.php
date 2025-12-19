@@ -6,9 +6,15 @@
             <a href="">Show All</a>
         </div>
         <div class="d-flex mb-4">
-            <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fa fa-user-plus"></i> Add riwayat transaksi</a>
+            <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fas fa-box"></i> Add riwayat transaksi</a>
         </div>
-        <div class="table-responsive">
+        <!-- Search bar -->
+        <div class="search-container">
+            <i class="search-icon">🔍</i>
+            <input type="text" id="searchInput" placeholder="Search users..." onkeyup="searchTable()">
+        </div>
+        <!-- Search bar end -->
+        <div class="table-responsive" id="riwayatTable">
             <table class="table text-start align-middle table-bordered table-hover mb-0">
                 <thead>
                     <tr class="text-dark">
@@ -31,7 +37,7 @@
                         <td>Snack</td>
                         <td>12 Pcs</td>
                         <td>
-                            <a class="btn btn-sm btn-success" href="" data-bs-toggle="modal" data-bs-target="#modalEdit"><i class="fa fa-edit"></i></a>
+                            <a class="btn btn-sm btn-warning" href="" data-bs-toggle="modal" data-bs-target="#modalEdit"><i class="fa fa-edit"></i></a>
                         </td>
                         <td>
                             <button class="btn btn-sm btn-danger" href="" id="liveToastBtn" type="button"><i class="fa fa-trash-alt"></i></button>
@@ -125,7 +131,6 @@
 </div>
 
 <!-- notif hapus -->
-
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
     <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
@@ -139,6 +144,7 @@
     </div>
 </div>
 
+<!-- JS -->
 <script>
     const toastTrigger = document.getElementById('liveToastBtn')
     const toastLiveExample = document.getElementById('liveToast')
@@ -150,3 +156,15 @@
         })
     }
 </script>
+
+ <script>
+   function searchTable() {
+     let input = document.getElementById("searchInput").value.toLowerCase();
+     let rows = document.querySelectorAll("#riwayatTable tbody tr");
+
+     rows.forEach(row => {
+       let text = row.innerText.toLowerCase();
+       row.style.display = text.includes(input) ? "" : "none";
+     });
+   }
+ </script>
