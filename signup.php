@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <title>Analisa dan Perancangan Sistem Informasi</title>
+    <title>Login Page</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -43,34 +42,42 @@
         <!-- Spinner End -->
 
 
-        <!-- Sidebar Start -->
-        <?php include "sidebar.php";?>
-        <!-- Sidebar End -->
-
-
-        <!-- Content Start -->
-        <div class="content">
-            <!-- Navbar Start -->
-            <?php include "navbar-header.php";?>
-            <!-- Navbar End -->
-
-            <?php
-            $menu = isset($_GET['menu'])?$_GET['menu']:"";
-            if($menu == "") {include "dashboard-index.php"; }
-            if($menu == "users") {include "users-index.php"; }
-            if($menu == "admin") {include "admin.php"; }
-            if($menu == "riwayat") {include "riwayat.php"; }
-            ?>
-           
-            <!-- Footer Start -->
-            <?php include "footer.php";?>
-            <!-- Footer End -->
+        <!-- Sign In Start -->
+        <div class="container-fluid">
+            <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
+                <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                    <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <a href="index.html" class="">
+                                <h3 class="text-primary"></i>UNiCORN</h3>
+                            </a>
+                            <h3>Sign Up</h3>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Email@example.com">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Username">
+                            <label for="floatingInput">Username</label>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary py-3 w-100 mb-4" id="signin">Sign Up</button>
+                        <p class="text-center mb-0">Already have an Account? <a href="signin.php">Sign In</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Content End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <!-- Sign In End -->
     </div>
 
     <!-- JavaScript Libraries -->
@@ -84,12 +91,11 @@
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script>
-        $("#signout").click(function(){
-            alert('Anda berhasil Sign Out. Terima kasih');
+        $("#signin").click(function(){
+            alert('Anda berhasil Sign Up, silahkan login ulang untuk masuk');
             $(location).attr('href', 'signin.php');
         })
     </script>
