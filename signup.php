@@ -51,11 +51,15 @@
                             <a href="index.html" class="">
                                 <h3 class="text-primary"></i>UNiCORN</h3>
                             </a>
-                            <h3>Sign In</h3>
+                            <h3>Sign Up</h3>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Email@example.com">
+                            <label for="floatingInput">Email</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="Username">
-                            <label for="floatingInput">Username </label>
+                            <label for="floatingInput">Username</label>
                         </div>
                         <div class="form-floating mb-4">
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
@@ -66,10 +70,9 @@
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
                             </div>
-                            <a href="">Forgot Password</a>
                         </div>
-                        <button type="submit" class="btn btn-primary py-3 w-100 mb-4" id="signin">Sign In</button>
-                        <p class="text-center mb-0">Don't have an Account? <a href="signup.php">Sign Up</a></p>
+                        <button type="submit" class="btn btn-primary py-3 w-100 mb-4" id="signin">Sign Up</button>
+                        <p class="text-center mb-0">Already have an Account? <a href="signin.php">Sign In</a></p>
                     </div>
                 </div>
             </div>
@@ -92,8 +95,8 @@
     <script src="js/main.js"></script>
     <script>
         $("#signin").click(function(){
-            alert('Anda berhasil Sign In. Selamat datang di Sistem Informasi');
-            $(location).attr('href', 'index.php');
+            alert('Anda berhasil Sign Up, silahkan login ulang untuk masuk');
+            $(location).attr('href', 'signin.php');
         })
     </script>
 </body>

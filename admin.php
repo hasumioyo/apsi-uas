@@ -74,22 +74,22 @@
      <div class="modal-dialog">
          <div class="modal-content">
              <div class="modal-header">
-                 <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Data</h1>
+                 <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Data</h1>
                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
              </div>
              <div class="modal-body">
                  <form>
                      <div class="mb-3">
                          <label for="recipient-name" class="col-form-label">ID Admin:</label>
-                         <input type="text" class="form-control" id="recipient-name" placeholder="01">
+                         <input type="text" class="form-control" id="recipient-name">
                      </div>
                      <div class="mb-3">
                          <label for="message-text" class="col-form-label">Username:</label>
-                         <input type="text" class="form-control" id="recipient-name" placeholder="Jonathan">
+                         <input type="text" class="form-control" id="recipient-name">
                      </div>
                      <div class="mb-3">
                          <label for="message-text" class="col-form-label">Nama:</label>
-                         <input type="text" class="form-control" id="recipient-name" placeholder="Jonathan Birila">
+                         <input type="text" class="form-control" id="recipient-name">
                      </div>
                  </form>
              </div>
@@ -102,7 +102,6 @@
  </div>
 
  <!-- notif hapus -->
-
  <div class="toast-container position-fixed bottom-0 end-0 p-3">
      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
          <div class="toast-header">
