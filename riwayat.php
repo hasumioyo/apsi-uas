@@ -18,7 +18,8 @@
                         <th scope="col">Nama Barang</th>
                         <th scope="col">Tipe</th>
                         <th scope="col">Jumlah</th>
-                        <th scope="col">Action</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -31,6 +32,8 @@
                         <td>12 Pcs</td>
                         <td>
                             <a class="btn btn-sm btn-success" href="" data-bs-toggle="modal" data-bs-target="#modalEdit"><i class="fa fa-edit"></i></a>
+                        </td>
+                        <td>
                             <button class="btn btn-sm btn-danger" href="" id="liveToastBtn" type="button"><i class="fa fa-trash-alt"></i></button>
                         </td>
                     </tr>
