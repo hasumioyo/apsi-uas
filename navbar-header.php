@@ -55,18 +55,18 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">
-                                <h6 class="fw-normal mb-0">Profile updated</h6>
-                                <small>15 minutes ago</small>
+                                <h6 class="fw-normal mb-0">Penambahan Stock</h6>
+                                <small>1 minutes ago</small>
                             </a>
                             <hr class="dropdown-divider">
                             <a href="#" class="dropdown-item">
-                                <h6 class="fw-normal mb-0">New user added</h6>
-                                <small>15 minutes ago</small>
+                                <h6 class="fw-normal mb-0">Edit Stock</h6>
+                                <small>10 minutes ago</small>
                             </a>
                             <hr class="dropdown-divider">
                             <a href="#" class="dropdown-item">
-                                <h6 class="fw-normal mb-0">Password changed</h6>
-                                <small>15 minutes ago</small>
+                                <h6 class="fw-normal mb-0">Tambah User</h6>
+                                <small>1 hour ago</small>
                             </a>
                             <hr class="dropdown-divider">
                             <a href="#" class="dropdown-item text-center">See all notifications</a>
@@ -78,9 +78,8 @@
                             <span class="d-none d-lg-inline-flex">Pak Dan</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">My Profile</a>
+                            <a href="#" class="dropdown-item">Profile</a>
                             <a href="#" class="dropdown-item">Settings</a>
-                            <a href="#" class="dropdown-item">Log Out</a>
                         </div>
                     </div>
                 </div>

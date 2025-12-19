@@ -1,34 +1,34 @@
  <!-- Sale & Revenue Start -->
-            <div class="container-fluid pt-4 px-4">
-                <div class="row g-4">
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fas fa-boxes text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Available Stock</p>
-                                <h6 class="mb-0">200</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fas fa-boxes text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Low Stock</p>
-                                <h6 class="mb-0">5</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fas fa-boxes text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Out of Stock</p>
-                                <h6 class="mb-0">2</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-sm-6 col-xl-3">
+ <div class="container-fluid pt-4 px-4">
+     <div class="row g-4">
+         <div class="col-sm-6 col-xl-3">
+             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                 <i class="fas fa-boxes text-primary"></i>
+                 <div class="ms-3">
+                     <p class="mb-2">Available Stock</p>
+                     <h6 class="mb-0">200</h6>
+                 </div>
+             </div>
+         </div>
+         <div class="col-sm-6 col-xl-3">
+             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                 <i class="fas fa-boxes text-primary"></i>
+                 <div class="ms-3">
+                     <p class="mb-2">Low Stock</p>
+                     <h6 class="mb-0">5</h6>
+                 </div>
+             </div>
+         </div>
+         <div class="col-sm-6 col-xl-3">
+             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                 <i class="fas fa-boxes text-primary"></i>
+                 <div class="ms-3">
+                     <p class="mb-2">Out of Stock</p>
+                     <h6 class="mb-0">2</h6>
+                 </div>
+             </div>
+         </div>
+         <!-- <div class="col-sm-6 col-xl-3">
                         <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
                             <i class="fa fa-chart-pie fa-3x text-primary"></i>
                             <div class="ms-3">
@@ -37,13 +37,13 @@
                             </div>
                         </div>
                     </div> -->
-                </div>
-            </div>
-            <!-- Sale & Revenue End -->
+     </div>
+ </div>
+ <!-- Sale & Revenue End -->
 
 
-            <!-- Sales Chart Start -->
-            <!-- <div class="container-fluid pt-4 px-4">
+ <!-- Sales Chart Start -->
+ <!-- <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-light text-center rounded p-4">
@@ -65,85 +65,49 @@
                     </div>
                 </div>
             </div> -->
-            <!-- Sales Chart End -->
+ <!-- Sales Chart End -->
 
 
-            <!-- Recent Sales Start -->
-            <div class="container-fluid pt-4 px-4">
-                <div class="bg-light text-center rounded p-4">
-                    <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Recent Stock</h6>
-                        <a href="">Show All</a>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="table text-start align-middle table-bordered table-hover mb-0">
-                            <thead>
-                                <tr class="text-dark">
-                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Id</th>
-                                    <th scope="col">Item</th>
-                                    <th scope="col">Stock</th>
-                                    <th scope="col">Min.Stock</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>01 Jan 2045</td>
-                                    <td>0001</td>
-                                    <td>Chitato</td>
-                                    <td>100</td>
-                                    <td>5</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>01 Jan 2045</td>
-                                    <td>0002</td>
-                                    <td>Pringles</td>
-                                    <td>90</td>
-                                    <td>5</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>01 Jan 2045</td>
-                                    <td>0003</td>
-                                    <td>Indomie</td>
-                                    <td>50</td>
-                                    <td>5</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>01 Jan 2045</td>
-                                    <td>0004</td>
-                                    <td>Lays</td>
-                                    <td>80</td>
-                                    <td>5</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>01 Jan 2045</td>
-                                    <td>0005</td>
-                                    <td>Oreo</td>
-                                    <td>35</td>
-                                    <td>5</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <!-- Recent Sales End -->
+ <!-- Recent Sales Start -->
+ <div class="container-fluid pt-4 px-4">
+     <div class="bg-light text-center rounded p-4">
+         <div class="d-flex align-items-center justify-content-between mb-4">
+             <h6 class="mb-0">Recent Stock</h6>
+             <a href="">Show All</a>
+         </div>
+         <div class="table-responsive">
+             <table class="table text-start align-middle table-bordered table-hover mb-0">
+                 <thead>
+                     <tr class="text-dark">
+                         <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                         <th scope="col">Date</th>
+                         <th scope="col">Id</th>
+                         <th scope="col">Item</th>
+                         <th scope="col">Stock</th>
+                         <th scope="col">Min.Stock</th>
+                         <th scope="col">Action</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td><input class="form-check-input" type="checkbox"></td>
+                         <td>01 Jan 2045</td>
+                         <td>0001</td>
+                         <td>Chitato</td>
+                         <td>100</td>
+                         <td>5</td>
+                         <td><a class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalDetail" href="">Detail</a></td>
+                     </tr>
+                 </tbody>
+             </table>
+         </div>
+     </div>
+ </div>
+ <!-- Recent Sales End -->
 
 
-            <!-- Widgets Start -->
-            <!-- <div class="container-fluid pt-4 px-4">
+ <!-- Widgets Start -->
+ <!-- <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
                     <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="h-100 bg-light rounded p-4">
@@ -261,4 +225,35 @@
                     </div>
                 </div>
             </div> -->
-            <!-- Widgets End -->
+ <!-- Widgets End -->
+
+ <!-- Modal Detail-->
+ <div class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h1 class="modal-title fs-5" id="exampleModalLabel">Detail Stock</h1>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+                 Data : 01 Jan 2045
+             </div>
+             <div class="modal-body">
+                 ID : 0001
+             </div>
+             <div class="modal-body">
+                 Item : Chitato
+             </div>
+             <div class="modal-body">
+                 Stock : 100
+             </div>
+             <div class="modal-body">
+                 Min. Stok : 5
+             </div>
+             <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                 <button type="button" class="btn btn-primary">Download</button>
+             </div>
+         </div>
+     </div>
+ </div>
