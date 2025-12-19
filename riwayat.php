@@ -24,6 +24,7 @@
                         <th scope="col">Nama Barang</th>
                         <th scope="col">Tipe</th>
                         <th scope="col">Jumlah</th>
+                        <th scope="col">Harga</th>
                         <th scope="col">Edit</th>
                         <th scope="col">Delete</th>
                     </tr>
@@ -36,6 +37,7 @@
                         <td>Oreo</td>
                         <td>Snack</td>
                         <td>12 Pcs</td>
+                        <td>Rp. 120.000</td>
                         <td>
                             <a class="btn btn-sm btn-warning" href="" data-bs-toggle="modal" data-bs-target="#modalEdit"><i class="fa fa-edit"></i></a>
                         </td>
