@@ -27,3 +27,26 @@
   font-size: 16px;
   color: #888;
 }
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.detail-item:last-child {
+    border-bottom: none;
+}
+
+.detail-item .label {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.detail-item .value {
+    font-size: 14px;
+    color: #212529;
+}
+
+
