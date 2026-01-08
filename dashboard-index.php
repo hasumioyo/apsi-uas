@@ -3,28 +3,28 @@
      <div class="row g-4">
          <div class="col-sm-6 col-xl-3">
              <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                 <i class="fas fa-boxes text-primary fa-3x"></i>
+                 <i class="fas fa-box text-primary fa-3x"></i>
                  <div class="ms-3">
                      <p class="mb-2">Available Stock</p>
-                     <h6 class="mb-0">200</h6>
+                     <h6 class="mb-0 text-success">200</h6>
                  </div>
              </div>
          </div>
          <div class="col-sm-6 col-xl-3">
              <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                 <i class="fas fa-boxes text-primary fa-3x"></i>
+                 <i class="fas fa-box text-primary fa-3x"></i>
                  <div class="ms-3">
                      <p class="mb-2">Low Stock</p>
-                     <h6 class="mb-0">5</h6>
+                     <h6 class="mb-0 text-warning">5</h6>
                  </div>
              </div>
          </div>
          <div class="col-sm-6 col-xl-3">
              <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                 <i class="fas fa-boxes text-primary fa-3x"></i>
+                 <i class="fas fa-box text-primary fa-3x"></i>
                  <div class="ms-3">
                      <p class="mb-2">Out of Stock</p>
-                     <h6 class="mb-0">2</h6>
+                     <h6 class="mb-0 text-danger">2</h6>
                  </div>
              </div>
          </div>
@@ -227,7 +227,7 @@
             </div> -->
  <!-- Widgets End -->
 
- <!-- Modal Detail-->
+ <!-- Modal Detail
  <div class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
      <div class="modal-dialog">
          <div class="modal-content">
@@ -256,4 +256,48 @@
              </div>
          </div>
      </div>
- </div>
+ </div> -->
+
+ <!-- Modal Detail -->
+<div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content shadow-sm">
+            <div class="modal-header">
+                <h5 class="modal-title fw-semibold">Detail Stock</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="detail-item">
+                    <span class="label">Data</span>
+                    <span class="value">01 Jan 2045</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">ID</span>
+                    <span class="value">0001</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Item</span>
+                    <span class="value">Chitato</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Stock</span>
+                    <span class="value fw-semibold">100</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Min. Stok</span>
+                    <span class="value text-danger fw-semibold">5</span>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                    Download
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
