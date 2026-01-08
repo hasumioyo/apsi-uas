@@ -131,6 +131,15 @@
     outline: none;
 }
 
+
+.sidebar {
+    background-color: #F1E3F3;
+}
+
+.sidebar .navbar .navbar-light{
+    background-color: #F1E3F3;
+}
+
 .sidebar .navbar .navbar-nav .nav-link:hover,
 .sidebar .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
@@ -147,6 +156,7 @@
     background: #FFFFFF;
     border-radius: 40px;
 }
+
 
 .sidebar .navbar .navbar-nav .nav-link:hover i,
 .sidebar .navbar .navbar-nav .nav-link.active i {
