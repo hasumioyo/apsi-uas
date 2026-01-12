@@ -49,7 +49,7 @@
                     <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <a href="index.html" class="">
-                                <h3 class="text-primary"></i>UNICORN</h3>
+                                <h4 class="text-primary"></i>CAHAYA FRANS</h4>
                             </a>
                             <h3>Sign Up</h3>
                         </div>

@@ -82,7 +82,7 @@
 .content {
     margin-left: 250px;
     min-height: 100vh;
-    background: #f1e3f3;
+    background: var(--light);
     transition: 0.5s;
 }
 
@@ -133,17 +133,17 @@
 
 
 .sidebar {
-    background-color: #F1E3F3;
+    background-color: #006ba6;
 }
 
-.sidebar .navbar .navbar-light{
-    background-color: #F1E3F3;
+.navbar .navbar-light{
+    background-color: #006ba6;
 }
 
 .sidebar .navbar .navbar-nav .nav-link:hover,
 .sidebar .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
-    background: #FFFFFF;
+    background: #006ba6;
     border-color: var(--primary);
 }
 
@@ -157,6 +157,9 @@
     border-radius: 40px;
 }
 
+.navbar .navbar-expand {
+    background-color: #006ba6;
+}
 
 .sidebar .navbar .navbar-nav .nav-link:hover i,
 .sidebar .navbar .navbar-nav .nav-link.active i {
