@@ -48,7 +48,7 @@
              <td>Angelina</td>
              <td>Angelina@gmail.com</td>
              <td>123456789000</td>
-             <td>User</td>
+             <td>Pemilik</td>
              <td>
                <a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-edit"></i></a>
              </td>

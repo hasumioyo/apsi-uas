@@ -24,7 +24,10 @@
                 <div class="navbar-nav w-100">
                     <a href="index.php" class="nav-item nav-link <?=$m[1];?>"><i class="fa fa-home me-2"></i>Dashboard</a>
                     <a href="index.php?menu=users" class="nav-item nav-link <?=$m[2];?>"><i class="fa fa-users-cog me-2"></i>Users</a>
-                    <a href="index.php?menu=riwayat" class="nav-item nav-link <?=$m[3];?>"><i class="fa fa-history me-2"></i>riwayat</a>
+                    <a href="index.php?menu=barang" class="nav-item nav-link <?=$m[3];?>"><i class="fa fa-users-cog me-2"></i>Barang</a>
+                    <a href="index.php?menu=tipe" class="nav-item nav-link <?=$m[4];?>"><i class="fa fa-users-cog me-2"></i>Tipe</a>
+                    <a href="index.php?menu=riwayat_masuk" class="nav-item nav-link <?=$m[5];?>"><i class="fa fa-history me-2"></i>Riwayat Masuk</a>
+                    <a href="index.php?menu=riwayat_keluar" class="nav-item nav-link <?=$m[6];?>"><i class="fa fa-history me-2"></i>Riwayat Keluar</a>
                     <a href="#" class="nav-item nav-link text-danger" id="signout" ><i class="fa fa-sign-out-alt me-2"></i>Sign Out</a>
                     
                     

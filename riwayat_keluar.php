@@ -6,7 +6,7 @@
             <a href="">Show All</a>
         </div>
         <div class="d-flex mb-4">
-            <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fas fa-box"></i> Add riwayat transaksi</a>
+            <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fas fa-box"></i> Add Riwayat Keluar</a>
         </div>
         <!-- Search bar -->
         <div class="search-container">
