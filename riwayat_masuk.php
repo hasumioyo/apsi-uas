@@ -75,8 +75,12 @@
                         <input type="text" class="form-control" id="recipient-name" placeholder="Oreo">
                     </div>
                     <div class="mb-3">
-                        <label for="message-text" class="col-form-label">Tipe:</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Snack">
+                        <label for="disabledSelect" class="form-label">Tipe</label>
+                        <select id="disabledSelect" class="form-select">
+                            <option>Snack</option>
+                            <option>Sembako</option>
+                            <option>Sabun</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Jumlah:</label>
@@ -115,8 +119,12 @@
                         <input type="text" class="form-control" id="recipient-name">
                     </div>
                     <div class="mb-3">
-                        <label for="message-text" class="col-form-label">Tipe:</label>
-                        <input type="text" class="form-control" id="recipient-name">
+                        <label for="disabledSelect" class="form-label">Tipe</label>
+                        <select id="disabledSelect" class="form-select">
+                            <option>Snack</option>
+                            <option>Sembako</option>
+                            <option>Sabun</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Jumlah:</label>
@@ -159,14 +167,14 @@
     }
 </script>
 
- <script>
-   function searchTable() {
-     let input = document.getElementById("searchInput").value.toLowerCase();
-     let rows = document.querySelectorAll("#riwayatTable tbody tr");
+<script>
+    function searchTable() {
+        let input = document.getElementById("searchInput").value.toLowerCase();
+        let rows = document.querySelectorAll("#riwayatTable tbody tr");
 
-     rows.forEach(row => {
-       let text = row.innerText.toLowerCase();
-       row.style.display = text.includes(input) ? "" : "none";
-     });
-   }
- </script>
+        rows.forEach(row => {
+            let text = row.innerText.toLowerCase();
+            row.style.display = text.includes(input) ? "" : "none";
+        });
+    }
+</script>
