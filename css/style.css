@@ -275,3 +275,43 @@
     background: var(--dark);
     border-color: var(--primary);
 }
+
+#laporan-gudang table {
+    width: 100%;
+    border-collapse: collapse !important;
+    border: 2px solid #000 !important;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+#laporan-gudang th,
+#laporan-gudang td {
+    border: 1px solid #000 !important;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#laporan-gudang th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #laporan-gudang,
+    #laporan-gudang * {
+        visibility: visible;
+    }
+
+    #laporan-gudang {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
+

@@ -63,6 +63,7 @@
             if($menu == "riwayat_keluar") {include "riwayat_keluar.php"; }
             if($menu == "barang") {include "barang.php"; }
             if($menu == "tipe") {include "tipe.php"; }
+            if($menu == "laporan") {include "laporan.php"; }
             ?>
            
             <!-- Footer Start -->
