@@ -59,7 +59,10 @@
             $menu = isset($_GET['menu'])?$_GET['menu']:"";
             if($menu == "") {include "dashboard-index.php"; }
             if($menu == "users") {include "users-index.php"; }
-            if($menu == "riwayat") {include "riwayat.php"; }
+            if($menu == "riwayat_masuk") {include "riwayat_masuk.php"; }
+            if($menu == "riwayat_keluar") {include "riwayat_keluar.php"; }
+            if($menu == "barang") {include "barang.php"; }
+            if($menu == "tipe") {include "tipe.php"; }
             ?>
            
             <!-- Footer Start -->

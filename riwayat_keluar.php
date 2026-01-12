@@ -6,7 +6,7 @@
             <a href="">Show All</a>
         </div>
         <div class="d-flex mb-4">
-            <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fas fa-box"></i> Add riwayat transaksi</a>
+            <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fas fa-box"></i> Add Riwayat Keluar</a>
         </div>
         <!-- Search bar -->
         <div class="search-container">
@@ -75,8 +75,12 @@
                         <input type="text" class="form-control" id="recipient-name" placeholder="Oreo">
                     </div>
                     <div class="mb-3">
-                        <label for="message-text" class="col-form-label">Tipe:</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Snack">
+                        <label for="disabledSelect" class="form-label">Tipe</label>
+                        <select id="disabledSelect" class="form-select">
+                            <option>Snack</option>
+                            <option>Sembako</option>
+                            <option>Sabun</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Jumlah:</label>
@@ -115,8 +119,12 @@
                         <input type="text" class="form-control" id="recipient-name">
                     </div>
                     <div class="mb-3">
-                        <label for="message-text" class="col-form-label">Tipe:</label>
-                        <input type="text" class="form-control" id="recipient-name">
+                        <label for="disabledSelect" class="form-label">Tipe</label>
+                        <select id="disabledSelect" class="form-select">
+                            <option>Snack</option>
+                            <option>Sembako</option>
+                            <option>Sabun</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Jumlah:</label>
