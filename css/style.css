@@ -82,7 +82,7 @@
 .content {
     margin-left: 250px;
     min-height: 100vh;
-    background: #f1e3f3;
+    background: var(--light);
     transition: 0.5s;
 }
 
@@ -131,10 +131,19 @@
     outline: none;
 }
 
+
+.sidebar {
+    background-color: #006ba6;
+}
+
+.navbar .navbar-light{
+    background-color: #006ba6;
+}
+
 .sidebar .navbar .navbar-nav .nav-link:hover,
 .sidebar .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
-    background: #FFFFFF;
+    background: #006ba6;
     border-color: var(--primary);
 }
 
@@ -146,6 +155,10 @@
     justify-content: center;
     background: #FFFFFF;
     border-radius: 40px;
+}
+
+.navbar .navbar-expand {
+    background-color: #006ba6;
 }
 
 .sidebar .navbar .navbar-nav .nav-link:hover i,
