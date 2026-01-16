@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $menu = isset($_GET['menu'])?$_GET['menu']:"";
     if($menu == "") {$m[1] = "active"; }
     if($menu == "users") {$m[2] = "active"; }
@@ -10,7 +11,7 @@
             <nav class="navbar navbar-light">
                 <a href="index.html" class="navbar-brand mx-4 mb-3">
                     <!-- <h3 class="text-primary"><i class="fa fa-horse-head me-2"></i>CAHAYA FRANS</h3> -->
-                    <h3 class="text-primary"></i>CAHAYA FRANS</h3>
+                    <h3 class="text-light"></i>CAHAYA FRANS</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
@@ -18,18 +19,18 @@
                         <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
                     </div>
                     <div class="ms-3">
-                        <h6 class="mb-0">Franss</h6>
-                        <span>Admin</span>
+                        <h6 class="mb-0 text-light"><?= $_SESSION['nama'];?></h6>
+                        <span class="text-white-50">Admin</span>
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="index.php" class="nav-item nav-link <?=$m[1];?>"><i class="fa fa-home me-2"></i>Dashboard</a>
-                    <a href="index.php?menu=users" class="nav-item nav-link <?=$m[2];?>"><i class="fa fa-users-cog me-2"></i>Users</a>
-                    <a href="index.php?menu=barang" class="nav-item nav-link <?=$m[3];?>"><i class="fas fa-box me-2"></i>Barang</a>
-                    <a href="index.php?menu=tipe" class="nav-item nav-link <?=$m[4];?>"><i class="fas fa-tags me-2"></i>Tipe</a>
-                    <a href="index.php?menu=riwayat_masuk" class="nav-item nav-link <?=$m[5];?>"><i class="fa fa-history me-2"></i>Riwayat Masuk</a>
-                    <a href="index.php?menu=riwayat_keluar" class="nav-item nav-link <?=$m[6];?>"><i class="fa fa-history me-2"></i>Riwayat Keluar</a>
-                    <a href="index.php?menu=laporan" class="nav-item nav-link <?=$m[7];?>"><i class="fas fa-print me-2"></i>Laporan</a>
+                    <a href="index.php" class="nav-item nav-link text-light <?=$m[1];?>"><i class="fa fa-home me-2 text-dark"></i>Dashboard</a>
+                    <a href="index.php?menu=users" class="nav-item nav-link text-light <?=$m[2];?>"><i class="fa fa-users-cog me-2 text-dark"></i>Users</a>
+                    <a href="index.php?menu=barang" class="nav-item nav-link text-light <?=$m[3];?>"><i class="fas fa-box me-2 text-dark"></i>Barang</a>
+                    <a href="index.php?menu=tipe" class="nav-item nav-link text-light <?=$m[4];?>"><i class="fas fa-tags me-2 text-dark"></i>Tipe</a>
+                    <a href="index.php?menu=riwayat_masuk" class="nav-item nav-link text-light <?=$m[5];?>"><i class="fa fa-history me-2 text-dark"></i>Riwayat Masuk</a>
+                    <a href="index.php?menu=riwayat_keluar" class="nav-item nav-link text-light <?=$m[6];?>"><i class="fa fa-history me-2 text-dark"></i>Riwayat Keluar</a>
+                    <a href="index.php?menu=laporan" class="nav-item nav-link text-light <?=$m[7];?>"><i class="fas fa-print me-2 text-dark"></i>Laporan</a>
                     <a href="#" class="nav-item nav-link text-danger" id="signout" ><i class="fa fa-sign-out-alt me-2"></i>Sign Out</a>
                     
                     

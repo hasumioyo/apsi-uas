@@ -32,7 +32,7 @@
          <tbody>
            <tr>
              <td><input class="form-check-input" type="checkbox"></td>
-             <td>01</td>
+             <td>1</td>
              <td>Meriyanti</td>
              <td>Meriyanti@gmail.com</td>
              <td>087564857662</td>
@@ -44,7 +44,7 @@
            </tr>
            <tr>
              <td><input class="form-check-input" type="checkbox"></td>
-             <td>02</td>
+             <td>2</td>
              <td>Angelina</td>
              <td>Angelina@gmail.com</td>
              <td>123456789000</td>
@@ -72,10 +72,6 @@
        </div>
        <div class="modal-body">
          <form>
-           <div class="mb-3">
-             <label for="recipient-name" class="col-form-label">ID:</label>
-             <input type="text" class="form-control" id="recipient-name" placeholder="01">
-           </div>
            <div class="mb-3">
              <label for="message-text" class="col-form-label">Name:</label>
              <input type="text" class="form-control" id="recipient-name" placeholder="Meriyanti">
@@ -108,10 +104,6 @@
 
        <div class="modal-body">
          <form>
-           <div class="mb-3">
-             <label for="recipient-name" class="col-form-label">ID:</label>
-             <input type="text" class="form-control" id="recipient-name">
-           </div>
            <div class="mb-3">
              <label for="message-text" class="col-form-label">Name:</label>
              <input type="text" class="form-control" id="recipient-name">

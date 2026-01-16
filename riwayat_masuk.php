@@ -2,7 +2,7 @@
 <div class="container-fluid pt-4 px-4">
     <div class="bg-light text-center rounded p-4">
         <div class="d-flex align-items-center justify-content-between mb-4">
-            <h6 class="mb-0">Riwayat Stok</h6>
+            <h6 class="mb-0">Riwayat Stok Masuk</h6>
             <a href="">Show All</a>
         </div>
         <div class="d-flex mb-4">
@@ -21,6 +21,7 @@
                         <th scope="col"><input class="form-check-input" type="checkbox"></th>
                         <th scope="col">Id Riwayat</th>
                         <th scope="col">Id Barang</th>
+                        <th scope="col">Id User</th>
                         <th scope="col">Nama Barang</th>
                         <th scope="col">Tipe</th>
                         <th scope="col">Jumlah</th>
@@ -34,6 +35,7 @@
                         <td><input class="form-check-input" type="checkbox"></td>
                         <td>0101</td>
                         <td>123</td>
+                        <td>1</td>
                         <td>Oreo</td>
                         <td>Snack</td>
                         <td>12 Pcs</td>
@@ -69,6 +71,10 @@
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Id Barang:</label>
                         <input type="text" class="form-control" id="recipient-name" placeholder="123">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Id User:</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="1">
                     </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Nama Barang:</label>
@@ -113,6 +119,10 @@
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Id Barang:</label>
                         <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Id User:</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="1">
                     </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Nama Barang:</label>

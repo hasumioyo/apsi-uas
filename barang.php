@@ -59,10 +59,6 @@
             <div class="modal-body">
                 <form>
                     <div class="mb-3">
-                        <label for="message-text" class="col-form-label">Id Barang:</label>
-                        <input type="text" class="form-control" id="recipient-name" placeholder="1">
-                    </div>
-                    <div class="mb-3">
                         <label for="message-text" class="col-form-label">Nama Barang:</label>
                         <input type="text" class="form-control" id="recipient-name" placeholder="Oreo">
                     </div>
@@ -94,10 +90,6 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <div class="mb-3">
-                        <label for="message-text" class="col-form-label">Id Barang:</label>
-                        <input type="text" class="form-control" id="recipient-name">
-                    </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label">Nama Barang:</label>
                         <input type="text" class="form-control" id="recipient-name">
