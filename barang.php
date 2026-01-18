@@ -5,14 +5,14 @@
             <h6 class="mb-0">Barang</h6>
             <a href="">Show All</a>
         </div>
-        <div class="d-flex mb-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="search-container">
+                <i class="search-icon">🔍</i>
+                <input type="text" id="searchInput" placeholder="Search barang..." onkeyup="searchTable()">
+            </div>
             <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fas fa-box"></i> Add Barang</a>
         </div>
         <!-- Search bar -->
-        <div class="search-container">
-            <i class="search-icon">🔍</i>
-            <input type="text" id="searchInput" placeholder="Search barang..." onkeyup="searchTable()">
-        </div>
         <!-- Search bar end -->
         <div class="table-responsive" id="riwayatTable">
             <table class="table text-start align-middle table-bordered table-hover mb-0">
@@ -21,6 +21,7 @@
                         <th scope="col"><input class="form-check-input" type="checkbox"></th>
                         <th scope="col">Id Barang</th>
                         <th scope="col">Nama Barang</th>
+                        <th scope="col">Tipe Barang</th>
                         <th scope="col">Jumlah</th>
                         <th scope="col">Harga</th>
                         <th scope="col">Edit</th>
@@ -30,8 +31,9 @@
                 <tbody>
                     <tr>
                         <td><input class="form-check-input" type="checkbox"></td>
-                        <td>1</td>
+                        <td>SK-001</td>
                         <td>Oreo</td>
+                        <td>Snack</td>
                         <td>12 Pcs</td>
                         <td>Rp. 120000</td>
                         <td>

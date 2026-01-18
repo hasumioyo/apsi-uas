@@ -3,11 +3,11 @@
     <div class="bg-light text-center rounded p-4">
         <div class="d-flex align-items-center justify-content-between mb-4">
             <h6 class="mb-0">Riwayat Stok Masuk</h6>
-            <a href="">Show All</a>
+            <!-- <a href="">Show All</a> -->
         </div>
-        <div class="d-flex mb-4">
+        <!-- <div class="d-flex mb-4">
             <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fas fa-box"></i> Add Riwayat Masuk</a>
-        </div>
+        </div> -->
         <!-- Search bar -->
         <div class="search-container">
             <i class="search-icon">🔍</i>
@@ -20,12 +20,11 @@
                     <tr class="text-dark">
                         <th scope="col"><input class="form-check-input" type="checkbox"></th>
                         <th scope="col">Id Riwayat</th>
+                        <th scope="col">Tanggal</th>
                         <th scope="col">Id Barang</th>
                         <th scope="col">Id User</th>
                         <th scope="col">Nama Barang</th>
-                        <th scope="col">Tipe</th>
                         <th scope="col">Jumlah</th>
-                        <th scope="col">Harga</th>
                         <th scope="col">Edit</th>
                         <th scope="col">Delete</th>
                     </tr>
@@ -33,13 +32,12 @@
                 <tbody>
                     <tr>
                         <td><input class="form-check-input" type="checkbox"></td>
-                        <td>0101</td>
-                        <td>123</td>
-                        <td>1</td>
+                        <td>20260116102045</td>
+                        <td>16-01-2026</td>
+                        <td>SK-001</td>
+                        <td>F001</td>
                         <td>Oreo</td>
-                        <td>Snack</td>
                         <td>12 Pcs</td>
-                        <td>Rp. 120.000</td>
                         <td>
                             <a class="btn btn-sm btn-warning" href="" data-bs-toggle="modal" data-bs-target="#modalEdit"><i class="fa fa-edit"></i></a>
                         </td>

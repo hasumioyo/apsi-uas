@@ -5,18 +5,18 @@
             <h6 class="mb-0">Tipe</h6>
             <a href="">Show All</a>
         </div>
-        <div class="d-flex mb-4">
-            <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fas fa-box"></i> Add Riwayat Masuk</a>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="search-container">
+                <i class="search-icon">🔍</i>
+                <input type="text" id="searchInput" placeholder="Search users..." onkeyup="searchTable()">
+            </div>
+            <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#modalTambah"><i class="fas fa-box"></i> Add Tipe barang</a>
         </div>
         <!-- Search bar -->
-        <div class="search-container">
-            <i class="search-icon">🔍</i>
-            <input type="text" id="searchInput" placeholder="Search users..." onkeyup="searchTable()">
-        </div>
         <!-- Search bar end -->
         <div class="table-responsive" id="riwayatTable">
             <table class="table text-start align-middle table-bordered table-hover mb-0">
-                <thead>
+                <thead> 
                     <tr class="text-dark">
                         <th scope="col"><input class="form-check-input" type="checkbox"></th>
                         <th scope="col">Id</th>
@@ -28,7 +28,7 @@
                 <tbody>
                     <tr>
                         <td><input class="form-check-input" type="checkbox"></td>
-                        <td>1</td>
+                        <td>SK</td>
                         <td>Snack</td>
                         <td>
                             <a class="btn btn-sm btn-warning" href="" data-bs-toggle="modal" data-bs-target="#modalEdit"><i class="fa fa-edit"></i></a>
@@ -39,7 +39,7 @@
                     </tr>
                     <tr>
                         <td><input class="form-check-input" type="checkbox"></td>
-                        <td>2</td>
+                        <td>SO</td>
                         <td>Sembako</td>
                         <td>
                             <a class="btn btn-sm btn-warning" href="" data-bs-toggle="modal" data-bs-target="#"><i class="fa fa-edit"></i></a>
@@ -50,7 +50,7 @@
                     </tr>
                     <tr>
                         <td><input class="form-check-input" type="checkbox"></td>
-                        <td>3</td>
+                        <td>SN</td>
                         <td>Sabun</td>
                         <td>
                             <a class="btn btn-sm btn-warning" href="" data-bs-toggle="modal" data-bs-target="#"><i class="fa fa-edit"></i></a>

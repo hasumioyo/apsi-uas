@@ -3,16 +3,16 @@
    <div class="bg-light text-center rounded p-4">
      <div class="d-flex align-items-center justify-content-between mb-4">
        <h6 class="mb-0">Users Management</h6>
-       <a href="">Show All</a>
+       <!-- <a href="">Show All</a> -->
      </div>
-     <div class="d-flex mb-4">
-       <a class="btn btn-sm btn-primary" href="" data-bs-toggle="modal" data-bs-target="#addModal" data-bs-whatever="@mdo"><i class="fa fa-user-plus"></i> Add Data</a>
-     </div>
+     <div class="d-flex justify-content-between align-items-center">
+       <div class="search-container">
+         <i class="search-icon">🔍</i>
+         <input type="text" id="searchInput" placeholder="Search users..." onkeyup="searchTable()">
+        </div>
+        <a class="btn btn-sm btn-primary d-flex align-items-center gap-2" href="" data-bs-toggle="modal" data-bs-target="#addModal" data-bs-whatever="@mdo"><i class="fa fa-user-plus"></i> Add Data</a>
+      </div>
      <!-- Search bar -->
-     <div class="search-container">
-       <i class="search-icon">🔍</i>
-       <input type="text" id="searchInput" placeholder="Search users..." onkeyup="searchTable()">
-     </div>
      <!-- Search bar end -->
 
      <div class="table-responsive" id="userTable">
@@ -32,7 +32,7 @@
          <tbody>
            <tr>
              <td><input class="form-check-input" type="checkbox"></td>
-             <td>1</td>
+             <td>M001</td>
              <td>Meriyanti</td>
              <td>Meriyanti@gmail.com</td>
              <td>087564857662</td>
@@ -44,7 +44,7 @@
            </tr>
            <tr>
              <td><input class="form-check-input" type="checkbox"></td>
-             <td>2</td>
+             <td>A001</td>
              <td>Angelina</td>
              <td>Angelina@gmail.com</td>
              <td>123456789000</td>

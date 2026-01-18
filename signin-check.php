@@ -21,6 +21,7 @@ if (mysqli_num_rows($query) == 1) {
         $_SESSION['nama']  = $user['nama'];
 
         header("Location: index.php");
+        var_dump($user);
         exit;
     }
 }
