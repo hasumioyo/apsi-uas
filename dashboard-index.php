@@ -79,7 +79,6 @@
              <table class="table text-start align-middle table-bordered table-hover mb-0">
                  <thead>
                      <tr class="text-dark">
-                         <th scope="col"><input class="form-check-input" type="checkbox"></th>
                          <th scope="col">Date</th>
                          <th scope="col">Id</th>
                          <th scope="col">Item</th>
@@ -90,7 +89,6 @@
                  </thead>
                  <tbody>
                      <tr>
-                         <td><input class="form-check-input" type="checkbox"></td>
                          <td>01 Jan 2045</td>
                          <td>0001</td>
                          <td>Chitato</td>
@@ -100,7 +98,84 @@
                      </tr>
                  </tbody>
              </table>
+         </div><br>
+         <div class="d-flex align-items-center justify-content-between mb-4">
+             <h6 class="mb-0">Barang</h6>
          </div>
+         <div class="table-responsive" id="riwayatTable">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">Id Barang</th>
+                        <th scope="col">Nama Barang</th>
+                        <th scope="col">Jumlah</th>
+                        <th scope="col">Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Oreo</td>
+                        <td>12 Pcs</td>
+                        <td>Rp. 120000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><br>
+        <div class="d-flex align-items-center justify-content-between mb-4">
+             <h6 class="mb-0">Riwayat Masuk</h6>
+         </div>
+        <div class="table-responsive" id="riwayatTable">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">Id Riwayat</th>
+                        <th scope="col">Id Barang</th>
+                        <th scope="col">Nama Barang</th>
+                        <th scope="col">Tipe</th>
+                        <th scope="col">Jumlah</th>
+                        <th scope="col">Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0101</td>
+                        <td>123</td>
+                        <td>Oreo</td>
+                        <td>Snack</td>
+                        <td>12 Pcs</td>
+                        <td>Rp. 120.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><br>
+        <div class="d-flex align-items-center justify-content-between mb-4">
+             <h6 class="mb-0">Riwayat Keluar</h6>
+         </div>
+        <div class="table-responsive" id="riwayatTable">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">Id Riwayat</th>
+                        <th scope="col">Id Barang</th>
+                        <th scope="col">Nama Barang</th>
+                        <th scope="col">Tipe</th>
+                        <th scope="col">Jumlah</th>
+                        <th scope="col">Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0101</td>
+                        <td>123</td>
+                        <td>Oreo</td>
+                        <td>Snack</td>
+                        <td>12 Pcs</td>
+                        <td>Rp. 120.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
      </div>
  </div>
  <!-- Recent Sales End -->
