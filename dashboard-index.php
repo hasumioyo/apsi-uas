@@ -1,181 +1,140 @@
  <!-- Sale & Revenue Start -->
+
  <div class="container-fluid pt-4 px-4">
-     <div class="row g-4">
-         <div class="col-sm-6 col-xl-3">
-             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                 <i class="fas fa-box text-primary fa-3x"></i>
-                 <div class="ms-3">
-                     <p class="mb-2">Available Stock</p>
-                     <h6 class="mb-0 text-success">200</h6>
+     <div class="row mb-3">
+         <div class="col-12">
+             <div class="row g-3">
+                 <!-- Card Stok Habis -->
+                 <div class="col-md-6">
+                     <div class="card shadow-sm border-0 h-100">
+                         <div class="card-body d-flex align-items-center">
+                             <div class="bg-danger text-white rounded p-3 me-3 fs-3">
+                                 <i class="bi bi-box-seam"></i>
+                             </div>
+                             <div>
+                                 <small class="text-muted">Stok Habis</small>
+                                 <h3 class="mb-0 fw-bold">12</h3>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+                 <!-- Card Stok Menipis -->
+                 <div class="col-md-6">
+                     <div class="card shadow-sm border-0 h-100">
+                         <div class="card-body d-flex align-items-center">
+                             <div class="bg-warning text-white rounded p-3 me-3 fs-3">
+                                 <i class="bi bi-arrow-down-circle"></i>
+                             </div>
+                             <div>
+                                 <small class="text-muted">Stok Menipis</small>
+                                 <h3 class="mb-0 fw-bold">45</h3>
+                             </div>
+                         </div>
+                     </div>
                  </div>
              </div>
          </div>
-         <div class="col-sm-6 col-xl-3">
-             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                 <i class="fas fa-box text-primary fa-3x"></i>
-                 <div class="ms-3">
-                     <p class="mb-2">Low Stock</p> 
-                     <h6 class="mb-0 text-warning">5</h6>
-                 </div>
-             </div>
-         </div>
-         <div class="col-sm-6 col-xl-3">
-             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                 <i class="fas fa-box text-primary fa-3x"></i>
-                 <div class="ms-3">
-                     <p class="mb-2">Out of Stock</p>
-                     <h6 class="mb-0 text-danger">2</h6>
-                 </div>
-             </div>
-         </div>
-         <!-- <div class="col-sm-6 col-xl-3">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-pie fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Total Revenue</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div> -->
      </div>
+
  </div>
- <!-- Sale & Revenue End -->
-
-
- <!-- Sales Chart Start -->
- <!-- <div class="container-fluid pt-4 px-4">
-                <div class="row g-4">
-                    <div class="col-sm-12 col-xl-6">
-                        <div class="bg-light text-center rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">Worldwide Sales</h6>
-                                <a href="">Show All</a>
-                            </div>
-                            <canvas id="worldwide-sales"></canvas>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-xl-6">
-                        <div class="bg-light text-center rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">Salse & Revenue</h6>
-                                <a href="">Show All</a>
-                            </div>
-                            <canvas id="salse-revenue"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
- <!-- Sales Chart End -->
 
 
  <!-- Recent Sales Start -->
  <div class="container-fluid pt-4 px-4">
-     <div class="bg-light text-center rounded p-4">
-         <div class="d-flex align-items-center justify-content-between mb-4">
-             <h6 class="mb-0">Recent Stock</h6>
-             <a href="">Show All</a>
+     <div class="bg-light text-center rounded p-2">
+         <div class="alert alert-info d-flex align-items-center" role="alert">
+             <i class="bi bi-info-circle me-2"></i>
+             Stok barang telah mencapai batas minimum
          </div>
-         <div class="table-responsive">
-             <table class="table text-start align-middle table-bordered table-hover mb-0">
-                 <thead>
-                     <tr class="text-dark">
-                         <th scope="col">Date</th>
-                         <th scope="col">Id</th>
-                         <th scope="col">Item</th>
-                         <th scope="col">Stock</th>
-                         <th scope="col">Min.Stock</th>
-                         <th scope="col">Action</th>
-                     </tr>
-                 </thead>
-                 <tbody>
-                     <tr>
-                         <td>01 Jan 2045</td>
-                         <td>0001</td>
-                         <td>Chitato</td>
-                         <td>100</td>
-                         <td>5</td>
-                         <td><a class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalDetail" href="">Detail</a></td>
-                     </tr>
-                 </tbody>
-             </table>
-         </div><br>
-         <div class="d-flex align-items-center justify-content-between mb-4">
-             <h6 class="mb-0">Barang</h6>
+
+         <!-- Card -->
+         <div class="card shadow-sm">
+             <div class="card-body">
+
+                 <!-- Top controls -->
+                 <div class="row mb-3">
+                     <div class="col-md-6 d-flex align-items-center">
+                         <span class="me-2">Tampilkan</span>
+                         <select class="form-select form-select-sm w-auto me-2">
+                             <option selected>10</option>
+                             <option>25</option>
+                             <option>50</option>
+                         </select>
+                         <span>data</span>
+                     </div>
+
+                     <div class="col-md-6 text-end">
+                         <div class="input-group input-group-sm w-50 ms-auto">
+                             <span class="input-group-text">Cari</span>
+                             <input type="text" class="form-control">
+                         </div>
+                     </div>
+                 </div>
+
+                 <!-- Table -->
+                 <div class="table-responsive">
+                     <table class="table table-bordered table-hover align-middle">
+                         <thead class="table-light">
+                             <tr class="text-center">
+                                 <th>No.</th>
+                                 <th>ID Barang</th>
+                                 <th>Nama Barang</th>
+                                 <th>Jenis Barang</th>
+                                 <th>Stok</th>
+                                 <th>Satuan</th>
+                             </tr>
+                         </thead>
+                         <tbody>
+                             <tr>
+                                 <td class="text-center">1</td>
+                                 <td>B0004</td>
+                                 <td>Gespax 500 SC</td>
+                                 <td>Herbisida</td>
+                                 <td class="text-center">
+                                     <span class="badge rounded-pill bg-warning text-dark">10</span>
+                                 </td>
+                                 <td>Liter</td>
+                             </tr>
+                             <tr>
+                                 <td class="text-center">2</td>
+                                 <td>B0005</td>
+                                 <td>Amonia Cair</td>
+                                 <td>Bahan Kimia Pengolahan</td>
+                                 <td class="text-center">
+                                     <span class="badge rounded-pill bg-warning text-dark">5</span>
+                                 </td>
+                                 <td>Liter</td>
+                             </tr>
+                         </tbody>
+                     </table>
+                 </div>
+
+                 <!-- Bottom info & pagination -->
+                 <div class="row mt-3">
+                     <div class="col-md-6">
+                         Menampilkan 1 sampai 2 dari 2 data
+                     </div>
+                     <div class="col-md-6">
+                         <nav class="d-flex justify-content-end">
+                             <ul class="pagination pagination-sm mb-0">
+                                 <li class="page-item disabled">
+                                     <a class="page-link">&laquo;</a>
+                                 </li>
+                                 <li class="page-item active">
+                                     <a class="page-link">1</a>
+                                 </li>
+                                 <li class="page-item disabled">
+                                     <a class="page-link">&raquo;</a>
+                                 </li>
+                             </ul>
+                         </nav>
+                     </div>
+                 </div>
+
+             </div>
          </div>
-         <div class="table-responsive" id="riwayatTable">
-            <table class="table text-start align-middle table-bordered table-hover mb-0">
-                <thead>
-                    <tr class="text-dark">
-                        <th scope="col">Id Barang</th>
-                        <th scope="col">Nama Barang</th>
-                        <th scope="col">Jumlah</th>
-                        <th scope="col">Harga</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Oreo</td>
-                        <td>12 Pcs</td>
-                        <td>Rp. 120000</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div><br>
-        <div class="d-flex align-items-center justify-content-between mb-4">
-             <h6 class="mb-0">Riwayat Masuk</h6>
-         </div>
-        <div class="table-responsive" id="riwayatTable">
-            <table class="table text-start align-middle table-bordered table-hover mb-0">
-                <thead>
-                    <tr class="text-dark">
-                        <th scope="col">Id Riwayat</th>
-                        <th scope="col">Id Barang</th>
-                        <th scope="col">Nama Barang</th>
-                        <th scope="col">Tipe</th>
-                        <th scope="col">Jumlah</th>
-                        <th scope="col">Harga</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>0101</td>
-                        <td>123</td>
-                        <td>Oreo</td>
-                        <td>Snack</td>
-                        <td>12 Pcs</td>
-                        <td>Rp. 120.000</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div><br>
-        <div class="d-flex align-items-center justify-content-between mb-4">
-             <h6 class="mb-0">Riwayat Keluar</h6>
-         </div>
-        <div class="table-responsive" id="riwayatTable">
-            <table class="table text-start align-middle table-bordered table-hover mb-0">
-                <thead>
-                    <tr class="text-dark">
-                        <th scope="col">Id Riwayat</th>
-                        <th scope="col">Id Barang</th>
-                        <th scope="col">Nama Barang</th>
-                        <th scope="col">Tipe</th>
-                        <th scope="col">Jumlah</th>
-                        <th scope="col">Harga</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>0101</td>
-                        <td>123</td>
-                        <td>Oreo</td>
-                        <td>Snack</td>
-                        <td>12 Pcs</td>
-                        <td>Rp. 120.000</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+
      </div>
  </div>
  <!-- Recent Sales End -->
@@ -334,45 +293,45 @@
  </div> -->
 
  <!-- Modal Detail -->
-<div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content shadow-sm">
-            <div class="modal-header">
-                <h5 class="modal-title fw-semibold">Detail Stock</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
+ <div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content shadow-sm">
+             <div class="modal-header">
+                 <h5 class="modal-title fw-semibold">Detail Stock</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+             </div>
 
-            <div class="modal-body">
-                <div class="detail-item">
-                    <span class="label">Data</span>
-                    <span class="value">01 Jan 2045</span>
-                </div>
-                <div class="detail-item">
-                    <span class="label">ID</span>
-                    <span class="value">0001</span>
-                </div>
-                <div class="detail-item">
-                    <span class="label">Item</span>
-                    <span class="value">Chitato</span>
-                </div>
-                <div class="detail-item">
-                    <span class="label">Stock</span>
-                    <span class="value fw-semibold">100</span>
-                </div>
-                <div class="detail-item">
-                    <span class="label">Min. Stok</span>
-                    <span class="value text-danger fw-semibold">5</span>
-                </div>
-            </div>
+             <div class="modal-body">
+                 <div class="detail-item">
+                     <span class="label">Data</span>
+                     <span class="value">01 Jan 2045</span>
+                 </div>
+                 <div class="detail-item">
+                     <span class="label">ID</span>
+                     <span class="value">0001</span>
+                 </div>
+                 <div class="detail-item">
+                     <span class="label">Item</span>
+                     <span class="value">Chitato</span>
+                 </div>
+                 <div class="detail-item">
+                     <span class="label">Stock</span>
+                     <span class="value fw-semibold">100</span>
+                 </div>
+                 <div class="detail-item">
+                     <span class="label">Min. Stok</span>
+                     <span class="value text-danger fw-semibold">5</span>
+                 </div>
+             </div>
 
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                    Close
-                </button>
-                <button type="button" class="btn btn-primary">
-                    Download
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
+             <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                     Close
+                 </button>
+                 <button type="button" class="btn btn-primary">
+                     Download
+                 </button>
+             </div>
+         </div>
+     </div>
+ </div>
