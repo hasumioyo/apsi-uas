@@ -10,40 +10,40 @@
             </p>
 
             <div class="table-responsive" id="riwayatTable">
-            <table class="table text-start align-middle table-bordered table-hover mb-0">
-                <thead>
-                    <tr class="text-dark">
-                        <th scope="col">No</th>
-                        <th scope="col">Id Barang</th>
-                        <th scope="col">Nama Barang</th>
-                        <th scope="col">Stok Awal</th>
-                        <th scope="col">Jumlah Masuk</th>
-                        <th scope="col">Barang Keluar</th>
-                        <th scope="col">Stok Akhir</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>Oreo</td>
-                        <td>Snack</td>
-                        <td>12 Pcs</td>
-                        <td>8 Pcs</td>
-                        <td>4 Pcs</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>2</td>
-                        <td>Minyak Goreng</td>
-                        <td>Sembako</td>
-                        <td>10 Pcs</td>
-                        <td>7 Pcs</td>
-                        <td>3 Pcs</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                <table class="table text-start align-middle table-bordered table-hover mb-0">
+                    <thead>
+                        <tr class="text-dark">
+                            <th scope="col">No</th>
+                            <th scope="col">Id Barang</th>
+                            <th scope="col">Nama Barang</th>
+                            <th scope="col">Stok Awal</th>
+                            <th scope="col">Jumlah Masuk</th>
+                            <th scope="col">Barang Keluar</th>
+                            <th scope="col">Stok Akhir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>Oreo</td>
+                            <td>Snack</td>
+                            <td>12 Pcs</td>
+                            <td>8 Pcs</td>
+                            <td>4 Pcs</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>Minyak Goreng</td>
+                            <td>Sembako</td>
+                            <td>10 Pcs</td>
+                            <td>7 Pcs</td>
+                            <td>3 Pcs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <br>
 

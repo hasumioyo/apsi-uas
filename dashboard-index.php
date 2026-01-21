@@ -14,7 +14,7 @@
              <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
                  <i class="fas fa-box text-primary fa-3x"></i>
                  <div class="ms-3">
-                     <p class="mb-2">Low Stock</p>
+                     <p class="mb-2">Low Stock</p> 
                      <h6 class="mb-0 text-warning">5</h6>
                  </div>
              </div>
